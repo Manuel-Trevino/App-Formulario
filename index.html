@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registro Estudiantes</title>
+    <title>Registro</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -81,13 +81,13 @@
 <body>
     <h1>Registro para estudiantes</h1>
     <form action="guardar.php" method="post">
-        <label>Matrícula:</label>
+        <label>No Control:</label>
         <input type="text" name="matricula" required><br>
 
         <label>Nombre:</label>
         <input type="text" name="nombre" required><br>
 
-        <label>Carrera:</label>
+        <label>Especialidad:</label>
         <select name="carrera">
             <option value="Computación">Computación</option>
             <option value="Cloud">Cómputo en la Nube</option>
@@ -95,6 +95,6 @@
 
         <input type="submit" value="Guardar">
     </form>
-    <a href="consulta.php">Ver registros</a>
+    <a href="consulta.php">Visualizar registros</a>
 </body>
 </html>
