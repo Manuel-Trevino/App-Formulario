@@ -61,7 +61,7 @@ try {
         echo "<div style='background-color: #f8d7da; color: #721c24; padding: 15px; border-radius: 4px; margin-top: 20px; text-align: center;'>No se encontraron registros de alumnos.</div>";
     }
 
-    echo "<a href='registro.php' style='display: inline-block; margin-top: 20px; color: #3498db; text-decoration: none; font-weight: 600; padding: 8px 0; transition: color 0.3s;'>Regresar al formulario</a>";
+    echo "<a href='index.html' style='display: inline-block; margin-top: 20px; color: #3498db; text-decoration: none; font-weight: 600; padding: 8px 0; transition: color 0.3s;'>Regresar al formulario</a>";
     echo "</div>"; // Cierre del div principal
 
 } catch (PDOException $e) {
