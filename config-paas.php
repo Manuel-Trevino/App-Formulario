@@ -11,7 +11,7 @@ try {
     $conn = new PDO("sqlsrv:Server=$serverName;Database=" . $connectionOptions['Database'], $connectionOptions['Uid'], $connectionOptions['PWD']);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // Habilita el modo de error de excepciones para un mejor manejo de errores
 
-    echo "Conexión exitosa a la base de datos SQL Server!";
+    //echo "Conexión exitosa a la base de datos SQL Server!";
 
 
 } catch (PDOException $e) {
