@@ -32,13 +32,13 @@ try {
     $stmt->execute();
 
     echo "<div style='background-color: #d4edda; color: #155724; padding: 15px; border-radius: 4px; margin-bottom: 20px;'>Conexión exitosa a la base de datos SQL Server! Registro guardado exitosamente.</div>";
-    echo "<a href='registro.php' style='display: inline-block; margin-top: 10px; color: #3498db; text-decoration: none; font-weight: 600; padding: 8px 0; transition: color 0.3s;'>Regresar al formulario</a>";
+    echo "<a href='index.html' style='display: inline-block; margin-top: 10px; color: #3498db; text-decoration: none; font-weight: 600; padding: 8px 0; transition: color 0.3s;'>Regresar al formulario</a>";
     echo "<br>";
     //echo "<a href='consultar.php' style='display: inline-block; margin-top: 10px; color: #3498db; text-decoration: none; font-weight: 600; padding: 8px 0; transition: color 0.3s;'>Ver todos los registros</a>";
 
 } catch (PDOException $e) {
     echo "<div style='background-color: #f8d7da; color: #721c24; padding: 15px; border-radius: 4px; margin-bottom: 20px;'>Error al guardar el registro: " . $e->getMessage() . "</div>";
-    echo "<a href='registro.php' style='display: inline-block; margin-top: 10px; color: #3498db; text-decoration: none; font-weight: 600; padding: 8px 0; transition: color 0.3s;'>Regresar al formulario</a>";
+    echo "<a href='index.html' style='display: inline-block; margin-top: 10px; color: #3498db; text-decoration: none; font-weight: 600; padding: 8px 0; transition: color 0.3s;'>Regresar al formulario</a>";
 }
 
 echo "</div>"; // Cierre del div principal
